@@ -6,44 +6,61 @@
     <title>Miguel Garcia portfolio</title>
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<h1> Miguel Garcia </h1>
-<body>
-<section class="About-me">
-    <section class="Discribe-myself">
-        <h2>Who am I?</h2>
-        <h3> Hello! I'm Miguel A. Garcia and welcome to my portfolio. I'm from Columbus, Ohio and I'm studying Through the We Can Code It
-            program to be a full stack developer.
-        </h3>
-    </section>
-    <section class="My-image">
-        <img src = "kemptons-blank-profile-picture.jpg" alt="A picture of myself" style="width:400px; height: 300px;">
-    </section>
-    <section class="My-profesional-links">
-        <h3> Check out my GitHub account</h3>
-        <a href="https://github.com/MGarcia31909">Here!</a>
-
-    </section>
-    <section class="What im capable of">
-        <h3> Heres what I can do:</h3>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>HTML5</li>
-        <li>TDD</li>
-        <li>CSS</li>
-    </section>
-    <section class="My-contact-info">
-        <h3>Want to get in touch? send me a email at:</h3>
-            <p>miguelg31909@gmail.com</p>
-    </section>
-</section>
-</body>
-<section class="Projects">
-    <h2>Here are a couple of things that I have worked on in the past</h2>
-    <h3>*place in here the name of the project liked to a GitHub repository,, screenshots, skills / technologies used</h3>
-</section>
-<section class="footer">
-</section>
-new
-
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 class="header__title">Miguel Garcia</h1>
+                <nav class="header__nav">
+                    <ul class="nav__link">
+                        <li class="nav__link"><a href="#about">About</a></li>
+                        <li class="nav__link"><a href="#projects">Projects</a></li>
+                        <li class="nav__link"><a href="#contact">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main">
+                <div>
+                    <section class="about main__content" id="about">
+                        <h2 class="about__title main-content__title">About myself!</h2>
+                        <p> Hello and welcome to my portfolio, I'm Miguel Garcia and I'm born and raised in Columbus, Ohio.
+                            Im currently in the We Can Code it program studying to be a full stack
+                        </p>
+                    </section>
+                    <section class ="projects main__content">
+                        <h2 class="main-content__title projects__title" id="Projects">
+                            Projects
+                        </h2>
+                        <section class="projects__articles">
+                            <article class="projects__projects">
+                                <h3 class="project__title"> Virtual Pet</h3>
+                                <img src="Virt pet pic.PNG" alt="Image of my virtualPet code" class="project__virtualPet">
+                                <p class="project__date"> 2021</p>
+                            </article>
+                            <article class="projects__projects">
+                                <h3 class="project__title"> Also Virtual Pet</h3>
+                                <img src="Virt pet pic.PNG" alt="Image of my virtualPet code" class="project__virtualPet">
+                                <p class="project__date"> 2021</p>
+                            </article>
+                            <article class="projects__projects">
+                                <h3 class="project__title"> Guess what? VIRTUAL PET</h3>
+                                <img src="Virt pet pic.PNG" alt="Image of my virtualPet code" class="project__virtualPet">
+                                <p class="project__date"> 2021</p>
+                            </article>
+                        </section>
+                    </section>
+                    <section class="contact" id="contacts">
+                        <h2 class="contact__title">Want to get in contact with me?</h2>
+                        <p class="contact__info" link>Send me an Email at: MGarcia31909@gmail.com</p>
+                    </section>
+                </div>
+                <aside class="picture__myself">
+                    <img src="untitled.jpg" alt="picture of my sister and myself" class="picture__myself">
+                </aside>
+            </div>
+            <footer class="footer">
+                <small class="footer__copyright">2021</small>
+            </footer>
+        </div>
+    </body>
 </html>
