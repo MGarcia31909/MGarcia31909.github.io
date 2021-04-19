@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 body{
+    font-family: Raleway;
     background-image: url(/jenna-duffy-eG8EXvfTBU8-unsplash.jpg);
-    background-size: 1550px;
+    background-size: cover;
+
 }
 header{
     background-color: rgba(255, 136, 0, 0.815);
